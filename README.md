@@ -188,7 +188,3 @@ Get-ADUser mdavis -Properties Enabled,Department,Title,LastLogonDate | Select-Ob
 | Offboarding | `Disable-ADAccount -Identity mdavis` |
 
 **Operational note:** Hyper-V checkpoints were intentionally avoided unless necessary because previous checkpoint files consumed significant storage. Normal guest shutdown preserves the VM state on the VHDX.
-
-## Resume / Interview Summary
-
-Built an Active Directory IAM lab and executed Joiner-Mover-Leaver workflows, implemented RBAC with security groups and NTFS permissions, validated least-privilege access, identified and remediated privilege creep during a Finance-to-HR transfer, and securely disabled and segregated a departing identity using ADUC and PowerShell.
